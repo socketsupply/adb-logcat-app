@@ -1,6 +1,6 @@
 {
   "name": "adb-logcat-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Stream logs with adb filtered by app id.",
   "global": "1",
   "install": "install -b adb-logcat-app.sh ${PREFIX:-/usr/local}/bin/adb-logcat-app",
