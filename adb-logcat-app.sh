@@ -48,6 +48,7 @@ adb-logcat-app () {
     ## Probe for application process ID
     pid="$(adb shell ps 2>/dev/null | grep "$id" | awk '{print $2}' | xargs echo -n)"
     if [  -n "$pid" ]; then
+      clear
       # echo adb logcat --pid="$pid" "${args[@]}" 2>/dev/null
       adb logcat --pid="$pid" "${args[@]}" 2>/dev/null & adbpid=$!
       # shellcheck disable=SC2064
