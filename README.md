@@ -8,7 +8,7 @@ adb-logcat-app
 Available as a [bpkg](http://www.bpkg.sh/):
 
 ```sh
-bpkg install -g jwerle/adb-logcat-app
+bpkg install -g socketsupply/adb-logcat-app
 ```
 
 ## Usage
