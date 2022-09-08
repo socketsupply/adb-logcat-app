@@ -4,6 +4,9 @@
   "description": "Stream logs with adb filtered by app id.",
   "global": "1",
   "install": "install -b adb-logcat-app.sh ${PREFIX:-/usr/local}/bin/adb-logcat-app",
-  "scripts": [ "adb-logcat-app.sh" ]
+  "scripts": [ "adb-logcat-app.sh" ],
+  "commands": {
+    "link": "ln -sf $BPKG_CWD/adb-logcat-app.sh $(dirname $BPKG_BIN)/adb-logcat-app"
+  }
 }
 
