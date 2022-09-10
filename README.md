@@ -5,7 +5,7 @@ adb-logcat-app
 
 ## Install
 
-Available as a [bpkg](http://www.bpkg.sh/):
+Available as a [bpkg](https://github.com/bpkg/bpkg):
 
 ```sh
 bpkg install -g socketsupply/adb-logcat-app
